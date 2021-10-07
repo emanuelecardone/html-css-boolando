@@ -37,7 +37,7 @@ img{
 
 .heart{
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 0;
     background-color: white;
     padding: 5px 10px;
@@ -53,39 +53,84 @@ img{
     background-color: red;
     left: 0;
     position: absolute; 
-    bottom: 80px;
+    bottom: 25px;
     padding: 2px 4px;
-    width: 15%;
+    width: 12%;
 }
 
 .green-square{
     display: inline-block;
     background-color: green;
     position: absolute;
-    bottom: 80px;
-    left: 16%;
+    bottom: 25px;
+    left: 13%;
     padding: 2px 4px;
 }
 
 .square span:only-child{
-    position: absolute;
     left: 0;
 }
 
-.foto2{
+.none{
     display: none;
 }
 
-.fotob{
+/* hover prodotto 1 */
+.prodotto1:hover .foto-levis-1{
     display: none;
 }
 
-.p-1:hover .fotoa{
-    display: none;
+.prodotto1:hover .foto-levis-2{
+    display: inline-block;
     cursor: pointer;
 }
 
-.p-1:hover .fotob{
+/* hover prodotto 2 */
+.prodotto2:hover .foto-guess-1{
+    display: none;
+}
+
+.prodotto2:hover .foto-guess-2{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hover prodotto 3 */
+.prodotto3:hover .foto-verde-1{
+    display: none;
+}
+
+.prodotto3:hover .foto-verde-2{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hover prodotto 4 */
+.prodotto4:hover .seconda-foto-levis-1{
+    display: none;
+}
+
+.prodotto4:hover .seconda-foto-levis-2{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hover prodotto 5 */
+.prodotto5:hover .foto-stripe-1{
+    display: none;
+}
+
+.prodotto5:hover .foto-stripe-2{
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* hover prodotto 6 */
+.prodotto6:hover .foto-nero-1{
+    display: none;
+}
+
+.prodotto6:hover .foto-nero-2{
     display: inline-block;
     cursor: pointer;
 }
