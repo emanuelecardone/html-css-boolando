@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.row{
+    margin: 20px auto 40px;
+}
+
+.product{
+    display: inline-block;
+    width: 32%;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.new-price{
+    color: red;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.square{
+    color: white;
+    position: relative;   
+}
+
+.red-square{
+    display: inline-block;
+    background-color: red;
+    left: 0;
+    position: absolute; 
+    bottom: 80px;
+    padding: 2px 4px;
+    width: 15%;
+}
+
+.green-square{
+    display: inline-block;
+    background-color: green;
+    position: absolute;
+    bottom: 80px;
+    left: 16%;
+    padding: 2px 4px;
+}
+
+.square span:only-child{
+    position: absolute;
+    left: 0;
+}
+
+.foto2{
+    display: none;
+}
+
+.fotob{
+    display: none;
+}
+
+.p-1:hover .fotoa{
+    display: none;
+    cursor: pointer;
+}
+
+.p-1:hover .fotob{
+    display: inline-block;
+    cursor: pointer;
+}
+
+
