@@ -64,64 +64,16 @@ img{
     display: none;
 }
 
-/* hover prodotto 1 */
-.prodotto1:hover .foto-levis-1{
+/* hover prodotto */
+.prodotto:hover .foto-1{
     display: none;
 }
 
-.prodotto1:hover .foto-levis-2{
+.prodotto:hover .foto-2{
     display: inline-block;
+}
+
+.prodotto:hover{
     cursor: pointer;
 }
-
-/* hover prodotto 2 */
-.prodotto2:hover .foto-guess-1{
-    display: none;
-}
-
-.prodotto2:hover .foto-guess-2{
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* hover prodotto 3 */
-.prodotto3:hover .foto-verde-1{
-    display: none;
-}
-
-.prodotto3:hover .foto-verde-2{
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* hover prodotto 4 */
-.prodotto4:hover .seconda-foto-levis-1{
-    display: none;
-}
-
-.prodotto4:hover .seconda-foto-levis-2{
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* hover prodotto 5 */
-.prodotto5:hover .foto-stripe-1{
-    display: none;
-}
-
-.prodotto5:hover .foto-stripe-2{
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* hover prodotto 6 */
-.prodotto6:hover .foto-nero-1{
-    display: none;
-}
-
-.prodotto6:hover .foto-nero-2{
-    display: inline-block;
-    cursor: pointer;
-}
-
 
