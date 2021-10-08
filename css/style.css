@@ -45,30 +45,19 @@ img{
 
 .square{
     color: white;
-    position: relative;   
+    position: absolute;
+    left: 0;   
+    bottom: 80px;
 }
 
 .red-square{
-    display: inline-block;
     background-color: red;
-    left: 0;
-    position: absolute; 
-    bottom: 25px;
     padding: 2px 4px;
-    width: 12%;
 }
 
 .green-square{
-    display: inline-block;
     background-color: green;
-    position: absolute;
-    bottom: 25px;
-    left: 13%;
     padding: 2px 4px;
-}
-
-.square span:only-child{
-    left: 0;
 }
 
 .none{
